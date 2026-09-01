@@ -1,0 +1,90 @@
+file,line,declaration,value,durations_ms,status,evidence_level
+client/src/index.css,30,transition-duration,300ms !important,300.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,32,transition-duration,300ms !important,300.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,35,transition,top 180ms ease-out,180.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
+client/src/index.css,39,transition,"color 250ms cubic-bezier(.23,1,.32,1)",250.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,39,transition,"width 250ms cubic-bezier(.23,1,.32,1)",250.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,40,transition,"transform 240ms cubic-bezier(.23,1,.32,1),box-shadow 240ms cubic-bezier(.23,1,.32,1),filter 240ms cubic-bezier(.23,1,.32,1) !important","240.0, 240.0, 240.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,41,transition,"all 240ms cubic-bezier(.23,1,.32,1)",240.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,41,transition,background 200ms ease,200.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,43,animation,"hero-enter 650ms cubic-bezier(.23,1,.32,1) forwards",650.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/index.css,44,transition,"all 240ms cubic-bezier(.23,1,.32,1)",240.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,45,transition,"all 240ms cubic-bezier(.23,1,.32,1)",240.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,49,transition,"transform 300ms cubic-bezier(.23,1,.32,1),border-color 300ms cubic-bezier(.23,1,.32,1),box-shadow 300ms cubic-bezier(.23,1,.32,1)","300.0, 300.0, 300.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,49,transition,"all 300ms cubic-bezier(.23,1,.32,1)",300.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,49,transition,"all 420ms cubic-bezier(.23,1,.32,1)",420.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/index.css,50,transition,"color 220ms cubic-bezier(.23,1,.32,1)",220.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,50,transition,"transform 220ms cubic-bezier(.23,1,.32,1)",220.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,51,transition,"transform 300ms cubic-bezier(.23,1,.32,1),border-color 300ms cubic-bezier(.23,1,.32,1)","300.0, 300.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,51,transition,"all 250ms cubic-bezier(.23,1,.32,1)",250.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,55,transition,"opacity 700ms cubic-bezier(.23,1,.32,1),transform 700ms cubic-bezier(.23,1,.32,1)","700.0, 700.0",Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/index.css,58,animation-duration,1ms !important,1.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/index.css,58,transition-duration,1ms !important,1.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/index.css,61,transition,"border-color 320ms cubic-bezier(.23,1,.32,1),transform 320ms cubic-bezier(.23,1,.32,1),box-shadow 320ms cubic-bezier(.23,1,.32,1)","320.0, 320.0, 320.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/index.css,61,transition,"transform 800ms cubic-bezier(.23,1,.32,1),filter 500ms ease","800.0, 500.0",Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/EmberSignal.tsx,183,Tailwind duration utility,duration-300,300,Within routine 200–350 ms range,Static source utility; runtime feel not tested here.
+client/src/pages/EmberSignal.tsx,217,Tailwind duration utility,duration-700,700,Intentional/needs review exception outside routine range,Static source utility; runtime feel not tested here.
+client/src/pages/Home.tsx,316,Tailwind duration utility,duration-300,300,Within routine 200–350 ms range,Static source utility; runtime feel not tested here.
+client/src/pages/LumaIntelligence.tsx,137,Tailwind duration utility,duration-300,300,Within routine 200–350 ms range,Static source utility; runtime feel not tested here.
+client/src/pages/LumaIntelligence.tsx,154,Tailwind duration utility,duration-300,300,Within routine 200–350 ms range,Static source utility; runtime feel not tested here.
+client/src/pages/LumaIntelligence.tsx,207,Tailwind duration utility,duration-300,300,Within routine 200–350 ms range,Static source utility; runtime feel not tested here.
+client/src/pages/LumaIntelligence.tsx,293,Tailwind duration utility,duration-700,700,Intentional/needs review exception outside routine range,Static source utility; runtime feel not tested here.
+client/src/pages/NotFound.tsx,42,Tailwind duration utility,duration-200,200,Within routine 200–350 ms range,Static source utility; runtime feel not tested here.
+client/src/pages/architecture-batch-05.css,1,transition,"600ms cubic-bezier(.23,1,.32,1)",600.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/architecture-batch-05.css,1,transition-duration,1ms!important,1.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,2,transition,"opacity 620ms cubic-bezier(.23,1,.32,1),transform 620ms cubic-bezier(.23,1,.32,1)","620.0, 620.0",Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,5,transition,"transform 260ms cubic-bezier(.23,1,.32,1),background 260ms","260.0, 260.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,8,transition,"background 230ms cubic-bezier(.23,1,.32,1),transform 230ms","230.0, 230.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,8,transition,"background 240ms, color 240ms","240.0, 240.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,8,transition,"transform 240ms,background 240ms","240.0, 240.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,11,transition,"box-shadow 250ms,transform 250ms","250.0, 250.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,11,transition,"border-color 250ms,background 250ms,transform 250ms","250.0, 250.0, 250.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,11,transition,background 260ms,260.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,14,transition,"transform 260ms cubic-bezier(.23,1,.32,1),background 260ms","260.0, 260.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,14,transition,"transform 250ms,box-shadow 250ms","250.0, 250.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,14,transition,"transform 280ms cubic-bezier(.23,1,.32,1)",280.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,17,transition,"transform 220ms,box-shadow 220ms","220.0, 220.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,17,transition,"transform 260ms,background 260ms","260.0, 260.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,17,transition,"transform 270ms cubic-bezier(.23,1,.32,1),background 270ms","270.0, 270.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,20,transition-duration,1ms!important,1.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/batch-02.css,20,animation-duration,1ms!important,1.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/commerce-batch-07.css,1,transition,"600ms cubic-bezier(.23,1,.32,1)",600.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/commerce-batch-07.css,1,transition-duration,1ms!important,1.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/commerce-batch-08.css,1,transition,"600ms cubic-bezier(.23,1,.32,1)",600.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/commerce-batch-08.css,1,transition-duration,1ms!important,1.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,46,transition,top 180ms ease-out,180.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,52,transition,"color 250ms cubic-bezier(.23,1,.32,1)",250.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,53,transition,"width 250ms cubic-bezier(.23,1,.32,1)",250.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,55,transition,"transform 240ms cubic-bezier(.23,1,.32,1), box-shadow 240ms cubic-bezier(.23,1,.32,1), filter 240ms cubic-bezier(.23,1,.32,1) !important","240.0, 240.0, 240.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,58,transition,"all 240ms cubic-bezier(.23,1,.32,1)",240.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,63,animation,"hero-enter 650ms cubic-bezier(.23,1,.32,1) forwards",650.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,70,transition,"all 240ms cubic-bezier(.23,1,.32,1)",240.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,76,transition,"transform 300ms cubic-bezier(.23,1,.32,1),border-color 300ms cubic-bezier(.23,1,.32,1),box-shadow 300ms cubic-bezier(.23,1,.32,1)","300.0, 300.0, 300.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,76,transition,"all 300ms cubic-bezier(.23,1,.32,1)",300.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,76,transition,"all 420ms cubic-bezier(.23,1,.32,1)",420.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,79,transition,"color 220ms cubic-bezier(.23,1,.32,1)",220.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,79,transition,"transform 220ms cubic-bezier(.23,1,.32,1)",220.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,80,transition,"transform 300ms cubic-bezier(.23,1,.32,1),border-color 300ms cubic-bezier(.23,1,.32,1)","300.0, 300.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,80,transition,"all 250ms cubic-bezier(.23,1,.32,1)",250.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,84,transition,"opacity 700ms cubic-bezier(.23,1,.32,1),transform 700ms cubic-bezier(.23,1,.32,1)","700.0, 700.0",Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,87,animation-duration,1ms !important,1.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/luma-intelligence.css,87,transition-duration,1ms !important,1.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/luxury-batch-03.css,1,transition,"opacity 600ms cubic-bezier(.23,1,.32,1),transform 600ms cubic-bezier(.23,1,.32,1)","600.0, 600.0",Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/luxury-batch-03.css,3,transition,transform 250ms,250.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luxury-batch-03.css,5,transition,background 250ms,250.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luxury-batch-03.css,7,transition,transform 250ms,250.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luxury-batch-03.css,7,transition,transform 270ms,270.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luxury-batch-03.css,9,transition,transform 240ms,240.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luxury-batch-03.css,11,transition,background 250ms,250.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luxury-batch-03.css,11,transition,background 270ms,270.0,Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/luxury-batch-03.css,13,transition-duration,1ms!important,1.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/luxury-batch-03.css,13,animation-duration,1ms!important,1.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/luxury-batch-04.css,1,transition,"opacity 600ms cubic-bezier(.23,1,.32,1),transform 600ms cubic-bezier(.23,1,.32,1)","600.0, 600.0",Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/luxury-batch-04.css,8,transition-duration,1ms!important,1.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/morrow-compute-overrides.css,1,transition,"background 240ms,color 240ms","240.0, 240.0",Within routine 200–350 ms range,Static source declaration; runtime feel not tested here.
+client/src/pages/service-batch-09.css,1,transition,"600ms cubic-bezier(.23,1,.32,1)",600.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/service-batch-09.css,1,transition-duration,1ms!important,1.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/service-batch-10.css,1,transition,"600ms cubic-bezier(.23,1,.32,1)",600.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/service-batch-10.css,1,transition-duration,1ms!important,1.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/spatial-batch-06.css,1,transition,"600ms cubic-bezier(.23,1,.32,1)",600.0,Documented exception: entrance/reveal or image treatment outside routine range,Static source declaration; runtime feel not tested here.
+client/src/pages/spatial-batch-06.css,1,transition-duration,1ms!important,1.0,Intentional/needs review exception outside routine range,Static source declaration; runtime feel not tested here.
